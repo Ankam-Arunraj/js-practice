@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+span{
+    font-weight: 700;
+}
+.note{
+    margin-top: 10vh;
+}
+.head-sec {
+    text-align: center;
+    background-color: aquamarine;
+    color: #000;
+    border: 2px solid rgb(48, 28, 2);
+    height: 10vh;
+    margin: 5vh ;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top:2.5vh ;
+    margin-bottom: 10vh;
+}
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .accordion-header {
+    background-color: #f3f3f3;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
